@@ -209,4 +209,13 @@ li {
   margin: 5px 0;
   border-radius: 5px;
 }
+.highlight {
+  background-color: #42b883;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+}
 </style>
