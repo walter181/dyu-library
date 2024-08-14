@@ -1,10 +1,11 @@
 <script setup>
-import JSONComponent from './components/JSON.vue'
+import Form from './components/Form.vue'
 </script>
 
 <template>
-  <JSONComponent />
+  <div class="form-container">
+    <Form />
+  </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
