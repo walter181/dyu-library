@@ -1,4 +1,3 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="container mt-5">
     <div class="row">
@@ -95,14 +94,10 @@ const formData = ref({
 const submittedCards = ref([])
 
 const submitForm = () => {
-  console.log('Form Submitted:', formData.value)
   submittedCards.value.push({
     ...formData.value
   })
-  
 }
-
-
 </script>
 
 <style scoped>
